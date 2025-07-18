@@ -1,35 +1,187 @@
 [
+  // 10 General Knowledge MCQs
   {
-    "question": "Who is the prime minister of Pakistan?",
-    "options": [
-      "Imran Khan",
-      "Shehbaz Sharif",
-      "Bilawal Bhutto",
-      "Siraj-ul-Haq"
-    ],
-    "correctAnswer": "Shehbaz Sharif",
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "correctAnswer": "Mars",
+    "category": "General Knowledge"
+  },
+  {
+    "question": "What is the capital city of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "correctAnswer": "Canberra",
+    "category": "General Knowledge"
+  },
+  {
+    "question": "Which is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    "correctAnswer": "Pacific Ocean",
+    "category": "General Knowledge"
+  },
+  {
+    "question": "Which country gifted the Statue of Liberty to the USA?",
+    "options": ["Germany", "France", "Italy", "Canada"],
+    "correctAnswer": "France",
+    "category": "General Knowledge"
+  },
+  {
+    "question": "Which organ purifies blood in the human body?",
+    "options": ["Heart", "Lungs", "Kidney", "Liver"],
+    "correctAnswer": "Kidney",
+    "category": "General Knowledge"
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correctAnswer": "Carbon Dioxide",
+    "category": "General Knowledge"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Japan", "Thailand", "South Korea"],
+    "correctAnswer": "Japan",
+    "category": "General Knowledge"
+  },
+  {
+    "question": "Which element is represented by the symbol O?",
+    "options": ["Osmium", "Oxygen", "Oxide", "Organium"],
+    "correctAnswer": "Oxygen",
+    "category": "General Knowledge"
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "7",
+    "category": "General Knowledge"
+  },
+  {
+    "question": "Which is the smallest planet in our solar system?",
+    "options": ["Mercury", "Venus", "Mars", "Pluto"],
+    "correctAnswer": "Mercury",
+    "category": "General Knowledge"
+  },
+
+  // 10 Pakistan Studies MCQs (in English)
+  {
+    "question": "What is the largest river of Pakistan?",
+    "options": ["Jhelum", "Ravi", "Indus", "Chenab"],
+    "correctAnswer": "Indus",
     "category": "Pakistan Studies"
   },
   {
-    "question": "اسلام کے کتنے ارکان ہیں؟",
-    "options": [
-      "4",
-      "5",
-      "11",
-      "30"
-    ],
-    "correctAnswer": "5",
+    "question": "Which is the national animal of Pakistan?",
+    "options": ["Lion", "Markhor", "Deer", "Fox"],
+    "correctAnswer": "Markhor",
+    "category": "Pakistan Studies"
+  },
+  {
+    "question": "When did Pakistan come into existence?",
+    "options": ["14 August 1947", "23 March 1940", "15 August 1947", "11 August 1947"],
+    "correctAnswer": "14 August 1947",
+    "category": "Pakistan Studies"
+  },
+  {
+    "question": "Who is the founder of Pakistan?",
+    "options": ["Allama Iqbal", "Liaquat Ali Khan", "Quaid-e-Azam", "Sir Syed Ahmed Khan"],
+    "correctAnswer": "Quaid-e-Azam",
+    "category": "Pakistan Studies"
+  },
+  {
+    "question": "What is the national flower of Pakistan?",
+    "options": ["Rose", "Jasmine", "Tulip", "Lily"],
+    "correctAnswer": "Jasmine",
+    "category": "Pakistan Studies"
+  },
+  {
+    "question": "Which is the national language of Pakistan?",
+    "options": ["Punjabi", "Sindhi", "Urdu", "Pashto"],
+    "correctAnswer": "Urdu",
+    "category": "Pakistan Studies"
+  },
+  {
+    "question": "Which is the largest city of Pakistan?",
+    "options": ["Lahore", "Islamabad", "Karachi", "Peshawar"],
+    "correctAnswer": "Karachi",
+    "category": "Pakistan Studies"
+  },
+  {
+    "question": "Which is the national sport of Pakistan?",
+    "options": ["Hockey", "Cricket", "Football", "Squash"],
+    "correctAnswer": "Hockey",
+    "category": "Pakistan Studies"
+  },
+  {
+    "question": "Where is Minar-e-Pakistan located?",
+    "options": ["Karachi", "Lahore", "Islamabad", "Quetta"],
+    "correctAnswer": "Lahore",
+    "category": "Pakistan Studies"
+  },
+  {
+    "question": "Which mountain range is the highest in Pakistan?",
+    "options": ["Hindu Kush", "Karakoram", "Himalayas", "Sulaiman"],
+    "correctAnswer": "Karakoram",
+    "category": "Pakistan Studies"
+  },
+
+  // 10 Islamiyat MCQs (in Urdu)
+  {
+    "question": "نماز دن میں کتنی بار فرض ہے؟",
+    "options": ["تین بار", "پانچ بار", "سات بار", "چار بار"],
+    "correctAnswer": "پانچ بار",
     "category": "Islamiyat"
   },
   {
-    "question": "When was Pakistan established?",
-    "options": [
-      "1945",
-      "1947",
-      "1948",
-      "1965"
-    ],
-    "correctAnswer": "1948",
-    "category": "Pakistan Studies"
+    "question": "قرآن پاک میں کتنے پارے ہیں؟",
+    "options": ["۲۰", "۳۰", "۲۵", "۳۵"],
+    "correctAnswer": "۳۰",
+    "category": "Islamiyat"
+  },
+  {
+    "question": "اسلام کے کتنے ارکان ہیں؟",
+    "options": ["چار", "پانچ", "چھے", "سات"],
+    "correctAnswer": "پانچ",
+    "category": "Islamiyat"
+  },
+  {
+    "question": "سب سے پہلا کلمہ کون سا ہے؟",
+    "options": ["کلمہ طیبہ", "کلمہ شہادت", "کلمہ تمجید", "کلمہ توحید"],
+    "correctAnswer": "کلمہ طیبہ",
+    "category": "Islamiyat"
+  },
+  {
+    "question": "روزہ کن مہینے میں فرض ہے؟",
+    "options": ["محرم", "شعبان", "رمضان", "ذی الحجہ"],
+    "correctAnswer": "رمضان",
+    "category": "Islamiyat"
+  },
+  {
+    "question": "قرآن پاک کس زبان میں نازل ہوا؟",
+    "options": ["اردو", "عربی", "فارسی", "انگریزی"],
+    "correctAnswer": "عربی",
+    "category": "Islamiyat"
+  },
+  {
+    "question": "حج مسلمانوں پر زندگی میں کتنی بار فرض ہے؟",
+    "options": ["دو بار", "ایک بار", "تین بار", "چار بار"],
+    "correctAnswer": "ایک بار",
+    "category": "Islamiyat"
+  },
+  {
+    "question": "سب سے آخری نبی کون ہیں؟",
+    "options": ["حضرت موسیٰ علیہ السلام", "حضرت عیسیٰ علیہ السلام", "حضرت محمد ﷺ", "حضرت ابراہیم علیہ السلام"],
+    "correctAnswer": "حضرت محمد ﷺ",
+    "category": "Islamiyat"
+  },
+  {
+    "question": "اسلامی سال کا پہلا مہینہ کون سا ہے؟",
+    "options": ["رمضان", "محرم", "شوال", "ذی الحجہ"],
+    "correctAnswer": "محرم",
+    "category": "Islamiyat"
+  },
+  {
+    "question": "شب قدر رمضان کے آخری کتنے دنوں میں آتی ہے؟",
+    "options": ["پانچ دن", "سات دن", "دس دن", "پندرہ دن"],
+    "correctAnswer": "دس دن",
+    "category": "Islamiyat"
   }
 ]
