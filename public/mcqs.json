@@ -1,5 +1,4 @@
 [
-  // 10 General Knowledge MCQs
   {
     "question": "Which planet is known as the Red Planet?",
     "options": ["Earth", "Mars", "Jupiter", "Venus"],
@@ -60,8 +59,6 @@
     "correctAnswer": "Mercury",
     "category": "General Knowledge"
   },
-
-  // 10 Pakistan Studies MCQs (in English)
   {
     "question": "What is the largest river of Pakistan?",
     "options": ["Jhelum", "Ravi", "Indus", "Chenab"],
@@ -122,8 +119,6 @@
     "correctAnswer": "Karakoram",
     "category": "Pakistan Studies"
   },
-
-  // 10 Islamiyat MCQs (in Urdu)
   {
     "question": "نماز دن میں کتنی بار فرض ہے؟",
     "options": ["تین بار", "پانچ بار", "سات بار", "چار بار"],
