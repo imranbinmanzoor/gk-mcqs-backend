@@ -1,30 +1,33 @@
 const express = require('express');
+const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
-const cors = require('cors');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-// Serve frontend files
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '../public')));
 
-// GET MCQs
+// ✅ Path to mcqs.json
+const mcqsPath = path.join(__dirname, 'public/mcqs.json');
+
+// ✅ GET MCQs
 app.get('/mcqs', (req, res) => {
-  const mcqsPath = path.join(__dirname, '../public/mcqs.json');
-  const mcqs = JSON.parse(fs.readFileSync(mcqsPath, 'utf-8'));
-  res.json(mcqs);
+  const data = fs.readFileSync(mcqsPath, 'utf8');
+  res.json(JSON.parse(data));
 });
 
-// POST new MCQ
+// ✅ POST MCQs
 app.post('/mcqs', (req, res) => {
-  const mcqsPath = path.join(__dirname, '../public/mcqs.json');
-  const mcqs = JSON.parse(fs.readFileSync(mcqsPath, 'utf-8'));
-  mcqs.push(req.body);
-  fs.writeFileSync(mcqsPath, JSON.stringify(mcqs, null, 2));
-  res.json({ message: 'MCQ added successfully!' });
+  const newMcq = req.body;
+  const data = JSON.parse(fs.readFileSync(mcqsPath, 'utf8'));
+  data.push(newMcq);
+  fs.writeFileSync(mcqsPath, JSON.stringify(data, null, 2));
+  res.json({ success: true, message: 'MCQ added' });
 });
 
-app.listen(PORT, () => console.log(`✅ Server running at http://localhost:${PORT}`));
+// ✅ Optional root route
+app.get('/', (req, res) => res.send('MCQs Backend is Live'));
+
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
